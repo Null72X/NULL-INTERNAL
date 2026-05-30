@@ -21,7 +21,7 @@
 ## 📸 Preview
 
 <p align="center">
-  <img src="./NULL_INTERNAL.png" alt="NULL INTERNAL Preview" width="100%">
+  <img src="./NULL_INTERNAL.png" width="100%">
 </p>
 
 ---
