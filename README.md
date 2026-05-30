@@ -1,18 +1,23 @@
 <p align="center">
-  <img src="NULL INTERNAL.png" alt="NULL INTERNAL" width="100%">
+  <img src="./NULL%20INTERNAL.png" alt="NULL INTERNAL" width="100%">
 </p>
 
 <h1 align="center">NULL INTERNAL</h1>
 
 <p align="center">
-  Advanced C# Framework
+  Premium C# External Framework
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/C%23-.NET-red?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Platform-Windows-darkred?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Status-Active-red?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Author-GAURAV-darkred?style=for-the-badge">
+  Entity Tracking • Overlay Rendering • ImGui.NET • Memory Interface
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-C%23-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Framework-.NET-darkred?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Platform-Windows-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Active-darkred?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Author-GAURAV-red?style=for-the-badge">
 </p>
 
 ---
@@ -20,8 +25,24 @@
 ## 📸 Preview
 
 <p align="center">
-  <img src="NULL INTERNAL.png" alt="Preview" width="100%">
+  <img src="./NULL%20INTERNAL.png" alt="NULL INTERNAL Preview" width="100%">
 </p>
+
+---
+
+## 📖 About
+
+NULL INTERNAL is a modern C# project built around:
+
+- Entity Processing
+- Overlay Rendering
+- World To Screen Calculations
+- Mathematical Utilities
+- Transform Systems
+- Memory Interaction
+- Real-Time Visualization
+
+Designed with performance, stability, and clean architecture in mind.
 
 ---
 
@@ -31,18 +52,18 @@
 
 - Aim Assist
 - Silent Aim
-- FOV Circle
 - Smooth Aim
-- Legit Aim
-- Target Selection
+- FOV Circle
+- Legit Mode
+- Closest Target Selection
 
 ### 👁️ ESP
 
 - Box ESP
 - Corner Box ESP
 - Skeleton ESP
-- Name ESP
 - Health ESP
+- Name ESP
 - Distance ESP
 - Weapon ESP
 - Level ESP
@@ -51,21 +72,22 @@
 
 ### ⚡ Utilities
 
-- Memory Read/Write
+- Memory Reading
+- Memory Writing
 - Entity Tracking
 - Bone Tracking
 - Weapon Detection
-- Transform System
+- Distance Calculation
+- Transform Processing
 - World To Screen
-- Overlay Rendering
 
 ### 🎨 Overlay
 
 - ImGui.NET
-- High FPS Rendering
-- Lightweight Design
 - Transparent Overlay
+- High FPS Rendering
 - Dynamic Scaling
+- Lightweight Performance
 
 ---
 
@@ -105,27 +127,21 @@ NULL INTERNAL
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Installation
 
-### Requirements
-
-- Windows 10 / Windows 11
-- .NET Runtime
-- Visual Studio 2022
-
-### Build
+### Clone Repository
 
 ```bash
-git clone https://github.com/USERNAME/NULL-INTERNAL.git
+git clone https://github.com/YOUR_USERNAME/NULL-INTERNAL.git
 ```
 
-Open:
+### Open Solution
 
 ```text
 NULL INTERNAL.sln
 ```
 
-Build:
+### Build
 
 ```text
 Build → Build Solution
@@ -135,7 +151,7 @@ Build → Build Solution
 
 ## ⚙ Configuration
 
-Most settings are located inside:
+Configuration can be modified inside:
 
 ```cs
 Config.cs
@@ -148,8 +164,8 @@ Config.AimBot = true;
 Config.SilentAim = true;
 
 Config.ESPBox = true;
-Config.ESPName = true;
 Config.ESPHealth = true;
+Config.ESPName = true;
 Config.ESPWeapon = true;
 
 Config.MiniMap = true;
@@ -157,16 +173,13 @@ Config.MiniMap = true;
 
 ---
 
-## 💻 Technologies
+## 💻 Requirements
 
 ```text
-C#
-.NET
-ImGui.NET
-WinAPI
-System.Numerics
-ADB
-Memory Interface
+Windows 10 / Windows 11
+Visual Studio 2022
+.NET Runtime
+Administrator Privileges
 ```
 
 ---
@@ -176,20 +189,27 @@ Memory Interface
 - Optimized Entity Processing
 - Fast Memory Access
 - Cached Address Translation
-- Low CPU Usage
+- Lightweight Overlay
 - High FPS Rendering
+- Low CPU Usage
 
 ---
 
-## 🔧 Core Components
+## 🔧 Components
 
-### Entity System
+### Core
 
-- Entity Tracking
-- Team Detection
-- Distance Calculation
-- Health Monitoring
-- Weapon Detection
+- Entity Manager
+- Overlay Manager
+- Configuration System
+- Data Processing
+
+### Utilities
+
+- Math Utilities
+- Transform Utilities
+- World To Screen
+- WinAPI Helpers
 
 ### Rendering
 
@@ -198,13 +218,6 @@ Memory Interface
 - Health Bars
 - Mini Map
 - Warning Indicators
-
-### Utilities
-
-- Math Utilities
-- Transform Utilities
-- World To Screen
-- Memory Interface
 
 ---
 
@@ -218,7 +231,7 @@ GAURAV
 
 ## ⭐ Support
 
-If you like this project:
+If you enjoy this project:
 
 ```text
 ⭐ Star the Repository
@@ -230,7 +243,7 @@ If you like this project:
 
 ## ⚠ Disclaimer
 
-This repository is intended for educational and research purposes only.
+This repository is provided for educational and research purposes only.
 
 The author assumes no responsibility for misuse, damages, account restrictions, or violations of third-party software agreements resulting from the use of this project.
 
