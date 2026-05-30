@@ -1,49 +1,55 @@
 <p align="center">
-  <img src="NULL INTERNAL.png" width="100%">
+  <img src="NULL INTERNAL.png" alt="NULL INTERNAL Preview" width="100%">
 </p>
 
 <h1 align="center">NULL INTERNAL</h1>
 
 <p align="center">
-  Premium External Framework
+  Premium C# External Framework
 </p>
 
 <p align="center">
-  ESP • Aimbot • Silent Aim • Overlay • Entity Tracking • ImGui.NET
+  ESP • Overlay • Entity Tracking • ImGui.NET • Memory Interface
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Language-C%23-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Framework-.NET-darkred?style=for-the-badge">
   <img src="https://img.shields.io/badge/Platform-Windows-red?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Language-C%23-darkred?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Status-Active-red?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Author-GAURAV-darkred?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Active-darkred?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Author-GAURAV-red?style=for-the-badge">
 </p>
 
 ---
 
-# 📖 Overview
+# 📖 About
 
-NULL INTERNAL is a high-performance C# framework featuring advanced entity tracking, overlay rendering, memory interaction, visualization systems, and real-time processing.
+NULL INTERNAL is a modern C# project built around real-time rendering, entity processing, memory management, mathematical calculations, and overlay visualization.
 
-Built using modern C# technologies with a lightweight architecture focused on speed, stability, and clean rendering.
+The project uses an optimized architecture focused on performance, stability, and clean code organization.
+
+---
+
+# 📸 Preview
+
+<p align="center">
+  <img src="NULL INTERNAL.png" alt="Preview" width="100%">
+</p>
 
 ---
 
 # ✨ Features
 
-## 🎯 Combat
+### 🎯 Combat Features
 
 - Aim Assist
 - Silent Aim
 - Legit Aim Mode
 - FOV Circle
-- Smooth Aim
-- FOV Target Selection
-- Closest Enemy Detection
+- Smooth Tracking
+- Closest Target Selection
 
----
-
-## 👁️ ESP
+### 👁 ESP Features
 
 - Box ESP
 - Corner Box ESP
@@ -55,46 +61,54 @@ Built using modern C# technologies with a lightweight architecture focused on sp
 - Weapon ESP
 - Level ESP
 - Enemy Warning
-- Mini Map Radar
+- Mini Map
 
----
+### ⚡ Memory Features
 
-## ⚡ Memory
-
-- Internal Memory Reading
-- Internal Memory Writing
-- Physical Address Translation
-- Memory Cache System
+- Memory Reading
+- Memory Writing
+- Address Translation
+- Cache System
 - Fast Entity Processing
 
----
+### 📡 Entity System
 
-## 📡 Entity System
-
-- Real-Time Entity Tracking
-- Bone Position Tracking
-- Team Detection
-- Visibility Checking
+- Bone Tracking
+- Position Tracking
 - Distance Calculation
+- Team Detection
+- Visibility Checks
 - Health Monitoring
 - Weapon Detection
 
+### 🎨 Overlay
+
+- ImGui.NET Overlay
+- Transparent Rendering
+- High FPS Drawing
+- Dynamic Scaling
+- Lightweight Performance
+
 ---
 
-## 🎨 Overlay
+# 🛠 Technologies
 
-- ImGui.NET Rendering
-- Transparent Overlay
-- Real-Time Drawing
-- Dynamic Scaling
-- Performance Optimized
+```txt
+C#
+.NET
+ImGui.NET
+WinAPI
+System.Numerics
+ADB Communication
+Memory Interface
+```
 
 ---
 
 # 📂 Project Structure
 
-```text
-NULL INTERNAL
+```txt
+NULL-INTERNAL
 │
 ├── Adb.cs
 ├── Bones.cs
@@ -116,21 +130,8 @@ NULL INTERNAL
 ├── WeaponIndex.cs
 ├── WinAPI.cs
 │
-└── NULL INTERNAL.png
-```
-
----
-
-# 🛠 Technologies
-
-```text
-C#
-.NET
-ImGui.NET
-System.Numerics
-WinAPI
-AOT Interface
-ADB Communication
+├── NULL INTERNAL.png
+└── README.md
 ```
 
 ---
@@ -140,26 +141,26 @@ ADB Communication
 ### Clone Repository
 
 ```bash
-git clone https://github.com/USERNAME/NULL-INTERNAL.git
+git clone https://github.com/YOUR_USERNAME/NULL-INTERNAL.git
 ```
 
 ### Open Project
 
-```bash
+```txt
 Visual Studio 2022
 ```
 
 ### Build
 
-```bash
-Build -> Build Solution
+```txt
+Build → Build Solution
 ```
 
 ---
 
 # ⚙ Configuration
 
-Most options can be configured inside:
+Configuration values can be modified inside:
 
 ```cs
 Config.cs
@@ -181,68 +182,97 @@ Config.MiniMap = true;
 
 ---
 
-# 📸 Preview
-
-```text
-assets/
-└── NULL INTERNAL.png
-```
-
-The banner displayed at the top of this README is the project preview.
-
----
-
 # 💻 Requirements
 
-- Windows 10 / 11
-- .NET Runtime
-- Visual Studio 2022
-- Administrator Privileges
+```txt
+Windows 10 / 11
+.NET Runtime
+Visual Studio 2022
+Administrator Privileges
+```
 
 ---
 
 # ⚡ Performance
 
 - Optimized Entity Scanning
-- Cached Memory Translation
+- Fast Memory Access
 - Lightweight Overlay
 - Low CPU Usage
-- Fast Render Pipeline
+- Stable Rendering Pipeline
+- High FPS Performance
+
+---
+
+# 🔧 Components
+
+### Core Systems
+
+- Core Manager
+- Entity Manager
+- Overlay Renderer
+- Configuration System
+
+### Utility Systems
+
+- Math Utilities
+- World To Screen
+- Transform Utilities
+- WinAPI Helpers
+
+### Data Systems
+
+- Entity Cache
+- Weapon Database
+- Bone Database
+- Offset Management
 
 ---
 
 # 👨‍💻 Author
 
-```text
-GAURAV
+<div align="center">
+
+## GAURAV
+
+Developer & Maintainer
+
+</div>
+
+---
+
+# 🌟 Support
+
+If you enjoy the project:
+
+```txt
+⭐ Star the Repository
+🍴 Fork the Project
+📢 Share with Others
 ```
 
 ---
 
-# ⭐ Support
+# 📜 License
 
-If you enjoy this project:
-
-```text
-⭐ Star the repository
-🍴 Fork the project
-🛠 Contribute improvements
+```txt
+MIT License
 ```
 
 ---
 
 # ⚠ Disclaimer
 
-```text
-This project is provided strictly for educational and research purposes.
+This project is provided solely for educational and research purposes.
 
-The author assumes no responsibility for misuse,
-violations of software terms, or damages resulting
-from the use of this project.
-```
+The author is not responsible for any misuse, damages, account actions, or violations of third-party software agreements resulting from the use of this repository.
+
+Use responsibly.
 
 ---
 
-<p align="center">
-  Made with ❤️ by GAURAV
-</p>
+<div align="center">
+
+### Made with ❤️ by GAURAV
+
+</div>
