@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./NULL%20INTERNAL.png" alt="NULL INTERNAL" width="100%">
-</p>
-
 <h1 align="center">NULL INTERNAL</h1>
 
 <p align="center">
@@ -36,13 +32,11 @@ NULL INTERNAL is a modern C# project built around:
 
 - Entity Processing
 - Overlay Rendering
-- World To Screen Calculations
+- World To Screen
+- Memory Management
 - Mathematical Utilities
 - Transform Systems
-- Memory Interaction
 - Real-Time Visualization
-
-Designed with performance, stability, and clean architecture in mind.
 
 ---
 
@@ -54,7 +48,7 @@ Designed with performance, stability, and clean architecture in mind.
 - Silent Aim
 - Smooth Aim
 - FOV Circle
-- Legit Mode
+- Legit Aim
 - Closest Target Selection
 
 ### 👁️ ESP
@@ -96,29 +90,8 @@ Designed with performance, stability, and clean architecture in mind.
 ```text
 NULL INTERNAL
 │
-├── Client
-│   ├── Adb.cs
-│   ├── Bones.cs
-│   ├── Bool.cs
-│   ├── Config.cs
-│   ├── Core.cs
-│   ├── Data.cs
-│   ├── Entity.cs
-│   ├── ESP.cs
-│   ├── Fake Lag.cs
-│   ├── InternalMemory.cs
-│   ├── MathUtils.cs
-│   ├── Offsets.cs
-│   ├── Program.cs
-│   ├── SilentAim.cs
-│   ├── SpeedTimer.cs
-│   ├── Transform.cs
-│   ├── W2S.cs
-│   ├── WeaponIndex.cs
-│   └── WinAPI.cs
-│
-├── REQUIREMENTS DLL
-│
+├── Client/
+├── REQUIREMENTS DLL/
 ├── BUILD.bat
 ├── NULL INTERNAL.png
 ├── NULL INTERNAL.sln
@@ -129,95 +102,21 @@ NULL INTERNAL
 
 ## 🚀 Installation
 
-### Clone Repository
-
 ```bash
 git clone https://github.com/YOUR_USERNAME/NULL-INTERNAL.git
 ```
 
-### Open Solution
+Open:
 
 ```text
 NULL INTERNAL.sln
 ```
 
-### Build
+Build:
 
 ```text
 Build → Build Solution
 ```
-
----
-
-## ⚙ Configuration
-
-Configuration can be modified inside:
-
-```cs
-Config.cs
-```
-
-Example:
-
-```cs
-Config.AimBot = true;
-Config.SilentAim = true;
-
-Config.ESPBox = true;
-Config.ESPHealth = true;
-Config.ESPName = true;
-Config.ESPWeapon = true;
-
-Config.MiniMap = true;
-```
-
----
-
-## 💻 Requirements
-
-```text
-Windows 10 / Windows 11
-Visual Studio 2022
-.NET Runtime
-Administrator Privileges
-```
-
----
-
-## 📊 Performance
-
-- Optimized Entity Processing
-- Fast Memory Access
-- Cached Address Translation
-- Lightweight Overlay
-- High FPS Rendering
-- Low CPU Usage
-
----
-
-## 🔧 Components
-
-### Core
-
-- Entity Manager
-- Overlay Manager
-- Configuration System
-- Data Processing
-
-### Utilities
-
-- Math Utilities
-- Transform Utilities
-- World To Screen
-- WinAPI Helpers
-
-### Rendering
-
-- ESP
-- Skeletons
-- Health Bars
-- Mini Map
-- Warning Indicators
 
 ---
 
@@ -231,8 +130,6 @@ GAURAV
 
 ## ⭐ Support
 
-If you enjoy this project:
-
 ```text
 ⭐ Star the Repository
 🍴 Fork the Repository
@@ -244,8 +141,6 @@ If you enjoy this project:
 ## ⚠ Disclaimer
 
 This repository is provided for educational and research purposes only.
-
-The author assumes no responsibility for misuse, damages, account restrictions, or violations of third-party software agreements resulting from the use of this project.
 
 Use responsibly.
 
