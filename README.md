@@ -1,36 +1,23 @@
 <p align="center">
-  <img src="NULL INTERNAL.png" alt="NULL INTERNAL Preview" width="100%">
+  <img src="NULL INTERNAL.png" alt="NULL INTERNAL" width="100%">
 </p>
 
 <h1 align="center">NULL INTERNAL</h1>
 
 <p align="center">
-  Premium C# External Framework
+  Advanced C# Framework
 </p>
 
 <p align="center">
-  ESP • Overlay • Entity Tracking • ImGui.NET • Memory Interface
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Language-C%23-red?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Framework-.NET-darkred?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Platform-Windows-red?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Status-Active-darkred?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Author-GAURAV-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/C%23-.NET-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Platform-Windows-darkred?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Active-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Author-GAURAV-darkred?style=for-the-badge">
 </p>
 
 ---
 
-# 📖 About
-
-NULL INTERNAL is a modern C# project built around real-time rendering, entity processing, memory management, mathematical calculations, and overlay visualization.
-
-The project uses an optimized architecture focused on performance, stability, and clean code organization.
-
----
-
-# 📸 Preview
+## 📸 Preview
 
 <p align="center">
   <img src="NULL INTERNAL.png" alt="Preview" width="100%">
@@ -38,129 +25,117 @@ The project uses an optimized architecture focused on performance, stability, an
 
 ---
 
-# ✨ Features
+## ✨ Features
 
-### 🎯 Combat Features
+### 🎯 Combat
 
 - Aim Assist
 - Silent Aim
-- Legit Aim Mode
 - FOV Circle
-- Smooth Tracking
-- Closest Target Selection
+- Smooth Aim
+- Legit Aim
+- Target Selection
 
-### 👁 ESP Features
+### 👁️ ESP
 
 - Box ESP
 - Corner Box ESP
 - Skeleton ESP
-- Health Bar
-- Health Text
 - Name ESP
+- Health ESP
 - Distance ESP
 - Weapon ESP
 - Level ESP
-- Enemy Warning
 - Mini Map
+- Enemy Warning
 
-### ⚡ Memory Features
+### ⚡ Utilities
 
-- Memory Reading
-- Memory Writing
-- Address Translation
-- Cache System
-- Fast Entity Processing
-
-### 📡 Entity System
-
+- Memory Read/Write
+- Entity Tracking
 - Bone Tracking
-- Position Tracking
-- Distance Calculation
-- Team Detection
-- Visibility Checks
-- Health Monitoring
 - Weapon Detection
+- Transform System
+- World To Screen
+- Overlay Rendering
 
 ### 🎨 Overlay
 
-- ImGui.NET Overlay
-- Transparent Rendering
-- High FPS Drawing
+- ImGui.NET
+- High FPS Rendering
+- Lightweight Design
+- Transparent Overlay
 - Dynamic Scaling
-- Lightweight Performance
 
 ---
 
-# 🛠 Technologies
+## 📂 Project Structure
 
-```txt
-C#
-.NET
-ImGui.NET
-WinAPI
-System.Numerics
-ADB Communication
-Memory Interface
-```
-
----
-
-# 📂 Project Structure
-
-```txt
-NULL-INTERNAL
+```text
+NULL INTERNAL
 │
-├── Adb.cs
-├── Bones.cs
-├── Bool.cs
-├── Config.cs
-├── Core.cs
-├── Data.cs
-├── Entity.cs
-├── ESP.cs
-├── Fake Lag.cs
-├── InternalMemory.cs
-├── MathUtils.cs
-├── Offsets.cs
-├── Program.cs
-├── SilentAim.cs
-├── SpeedTimer.cs
-├── Transform.cs
-├── W2S.cs
-├── WeaponIndex.cs
-├── WinAPI.cs
+├── Client
+│   ├── Adb.cs
+│   ├── Bones.cs
+│   ├── Bool.cs
+│   ├── Config.cs
+│   ├── Core.cs
+│   ├── Data.cs
+│   ├── Entity.cs
+│   ├── ESP.cs
+│   ├── Fake Lag.cs
+│   ├── InternalMemory.cs
+│   ├── MathUtils.cs
+│   ├── Offsets.cs
+│   ├── Program.cs
+│   ├── SilentAim.cs
+│   ├── SpeedTimer.cs
+│   ├── Transform.cs
+│   ├── W2S.cs
+│   ├── WeaponIndex.cs
+│   └── WinAPI.cs
 │
+├── REQUIREMENTS DLL
+│
+├── BUILD.bat
 ├── NULL INTERNAL.png
+├── NULL INTERNAL.sln
 └── README.md
 ```
 
 ---
 
-# 🚀 Installation
+## 🚀 Getting Started
 
-### Clone Repository
+### Requirements
 
-```bash
-git clone https://github.com/YOUR_USERNAME/NULL-INTERNAL.git
-```
-
-### Open Project
-
-```txt
-Visual Studio 2022
-```
+- Windows 10 / Windows 11
+- .NET Runtime
+- Visual Studio 2022
 
 ### Build
 
-```txt
+```bash
+git clone https://github.com/USERNAME/NULL-INTERNAL.git
+```
+
+Open:
+
+```text
+NULL INTERNAL.sln
+```
+
+Build:
+
+```text
 Build → Build Solution
 ```
 
 ---
 
-# ⚙ Configuration
+## ⚙ Configuration
 
-Configuration values can be modified inside:
+Most settings are located inside:
 
 ```cs
 Config.cs
@@ -173,8 +148,8 @@ Config.AimBot = true;
 Config.SilentAim = true;
 
 Config.ESPBox = true;
-Config.ESPHealth = true;
 Config.ESPName = true;
+Config.ESPHealth = true;
 Config.ESPWeapon = true;
 
 Config.MiniMap = true;
@@ -182,97 +157,87 @@ Config.MiniMap = true;
 
 ---
 
-# 💻 Requirements
+## 💻 Technologies
 
-```txt
-Windows 10 / 11
-.NET Runtime
-Visual Studio 2022
-Administrator Privileges
+```text
+C#
+.NET
+ImGui.NET
+WinAPI
+System.Numerics
+ADB
+Memory Interface
 ```
 
 ---
 
-# ⚡ Performance
+## 📊 Performance
 
-- Optimized Entity Scanning
+- Optimized Entity Processing
 - Fast Memory Access
-- Lightweight Overlay
+- Cached Address Translation
 - Low CPU Usage
-- Stable Rendering Pipeline
-- High FPS Performance
+- High FPS Rendering
 
 ---
 
-# 🔧 Components
+## 🔧 Core Components
 
-### Core Systems
+### Entity System
 
-- Core Manager
-- Entity Manager
-- Overlay Renderer
-- Configuration System
+- Entity Tracking
+- Team Detection
+- Distance Calculation
+- Health Monitoring
+- Weapon Detection
 
-### Utility Systems
+### Rendering
+
+- ESP
+- Skeletons
+- Health Bars
+- Mini Map
+- Warning Indicators
+
+### Utilities
 
 - Math Utilities
-- World To Screen
 - Transform Utilities
-- WinAPI Helpers
-
-### Data Systems
-
-- Entity Cache
-- Weapon Database
-- Bone Database
-- Offset Management
+- World To Screen
+- Memory Interface
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
-<div align="center">
-
-## GAURAV
-
-Developer & Maintainer
-
-</div>
+```text
+GAURAV
+```
 
 ---
 
-# 🌟 Support
+## ⭐ Support
 
-If you enjoy the project:
+If you like this project:
 
-```txt
+```text
 ⭐ Star the Repository
-🍴 Fork the Project
-📢 Share with Others
+🍴 Fork the Repository
+📢 Share the Project
 ```
 
 ---
 
-# 📜 License
+## ⚠ Disclaimer
 
-```txt
-MIT License
-```
+This repository is intended for educational and research purposes only.
 
----
-
-# ⚠ Disclaimer
-
-This project is provided solely for educational and research purposes.
-
-The author is not responsible for any misuse, damages, account actions, or violations of third-party software agreements resulting from the use of this repository.
+The author assumes no responsibility for misuse, damages, account restrictions, or violations of third-party software agreements resulting from the use of this project.
 
 Use responsibly.
 
 ---
 
-<div align="center">
-
-### Made with ❤️ by GAURAV
-
-</div>
+<p align="center">
+  Made with ❤️ by GAURAV
+</p>
